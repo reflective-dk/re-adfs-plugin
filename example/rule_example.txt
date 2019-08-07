@@ -1,0 +1,5 @@
+@RuleName = "QueryReflectiveForCprNumber"
+c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"]
+ => add(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"), query = ";userPrincipalName;{0}", param = c.Value);
+c1:[Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"]
+ => issue(store = "ReflectiveAttributeStore", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier"), query = "getCprNumber", param = c1.Value);
