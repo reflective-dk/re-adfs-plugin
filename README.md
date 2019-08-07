@@ -8,7 +8,7 @@ ReflectiveAttributeStore.dll
 RestSharp.dll
 Newtonsoft.Json.dll
 
-Compiled to WIndows 2012 server [ReflectiveAttributeStore/bin/Release](here).
+Compiled to WIndows 2012 server [here](ReflectiveAttributeStore/bin/Release).
 
 *NB when updating the DLL's you need to stop the service, because it will not allow overriding files.
 
@@ -50,7 +50,7 @@ The log is present at 'c:/Logs/reflective/adfs-plugin.txt'
 If debug is 'true', more info will be available here
 
 ## Example of claim rules using plugin
-Example rules [example](here).
+Example rules [here](example).
 
 In power shell add like so:
 ```sh
