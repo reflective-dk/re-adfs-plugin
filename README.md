@@ -26,14 +26,14 @@ check or install here:
 3. Service -> Attribute Stores -> Add Custom Attribute Store...
 4. Add Attribute Store
 
-Set display name to ReflectiveAttributeStore
-In class name input: ReflectiveAttributeStore.MainClass, ReflectiveAttributeStore
+* Set display name to ReflectiveAttributeStore
+* In class name input: ReflectiveAttributeStore.MainClass, ReflectiveAttributeStore
 
 Then in optional parameters, input:
-ReflectiveUrl , example https://test.reflective.dk
-Username , example myname
-Password
-Context, example {"domain": "hjertekoebing"}
+* ReflectiveUrl , example https://test.reflective.dk
+* Username , example myname
+* Password
+* Context, example {"domain": "hjertekoebing"}
 
 ## Verify correct installation
 To check for correct instantiation, open 'Event Viewer'
