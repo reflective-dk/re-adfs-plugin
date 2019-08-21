@@ -98,7 +98,6 @@ namespace ReflectiveAttributeStore
             } else
             {
                 var responseJson = theResponse.Content;
-                Console.WriteLine(responseJson);
                 var profile = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseJson);
                 return profile;
             }
