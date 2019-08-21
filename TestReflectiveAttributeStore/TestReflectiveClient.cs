@@ -56,7 +56,7 @@ namespace TestReflectiveAttributeStore
         [TestMethod]
         public void profile()
         {
-            Dictionary<string, string> dict = readCredentials("../../base.txt");
+            Dictionary<string, string> dict = readCredentials("../../hjertekoebing.txt");
             Configuration.GetInstance().Init(dict);
 
             ReflectiveClient client = new ReflectiveClient();
