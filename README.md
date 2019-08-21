@@ -8,7 +8,7 @@ ReflectiveAttributeStore.dll
 RestSharp.dll
 Newtonsoft.Json.dll
 
-Compiled to WIndows 2012 server [here](ReflectiveAttributeStore/bin/Release).
+Compiled to Windows 2016 server [here](ReflectiveAttributeStore/bin/Release).
 
 *NB when updating the DLL's you need to stop the service, because it will not allow overriding files.
 
